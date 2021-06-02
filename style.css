@@ -1,0 +1,69 @@
+
+body {
+	color: orange;
+    margin: 0;					/*margen (izquierdo)*/
+	align-items: center;		/*alineacion de los items dentro del body*/
+   	/*background-image: linear-gradient(236deg, #74ebd5, #acb6e5); 			/*usar una imagen con degradado de fondo del body*/
+    background-image: url("images/background.jpg");		/*usar una imagen de fondo, esta imagen esta en una carpeta dentro de la carpeta del archivo fuente*/
+    display: flex;		/*para darle flexibilidad al body. Es la capacidad de adaptarse a distintas pantallas*/
+    height: 100vh;		/*indica la altura del body*/
+    justify-content: center;		/*hace que el contenido se ubique en el centro*/
+} 
+
+
+.calculadora {	/*la caja que contiene la pantalla y los botones de la calculadora*/
+    border-radius: 12px;	/*le redondea los bordes al box que contiene a la clase*/
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);	/*le da una sombra al box que contiene  a la clase para que se pueda diferenciar del fondo*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;	/*margen superior*/
+    max-width: 15em;	/*ancho maximo*/
+    overflow: hidden;	/*oculta los contenidos que sobresalen del box*/
+}
+
+.calculadora_display {	/*pantalla de la calculadora*/
+    background-color: #222222;			/* fondo negro*/
+    color: #fff;						/*color de la fuente/letra*/
+    font-size: 1.714285714em;			/*tamaño de la fuente/letra*/
+    padding: 0.5em 0.75em;				/*espacio que separa el contenido con el borde de la caja (altura, ancho)*/
+    text-align: right;					/*alineacion del texto*/
+}
+
+.calculadora_buttons {	/*caja que contiene los botones de la calculadora*/
+    background-color: #999;		/*color de fondo*/
+    display: grid;				/*le asignamos la disposion de elementos "grid" a esta caja (caja de botones)*/
+    grid-gap: 1px;				/* espacio de separacion entre los elementos del grid*/
+    grid-template-columns: repeat(4, 1fr);	/*asignamos la disposion de grid tipo columnas, repite 4 elementos por fila*/
+    padding: 5px;
+}
+
+.calculadora_buttons button{
+	font-weight: bold;
+	border-radius: 7px;
+}
+
+button:hover{
+	color: white;
+	background-color: lightblue;
+}
+
+button:active{
+    background-color: lightgreen;
+    color: black;
+}
+
+.key-operator {	/*teclas de operacion*/
+    background-color: #eee;		/*color de fondo*/
+}
+
+
+.key-equal {
+	/*background-image: linear-gradient(236deg, #74ebd5, #acb6e5);*/
+    background-image: linear-gradient(to bottom, #fe886a, #ff7033);	/*color de fondo de la tecla*/
+    grid-column: -2;		
+    grid-row: 2 / span 4;
+}
+
+.key-clear{
+	background-color: grey;
+}
