@@ -70,22 +70,33 @@ button:active{
 }
 
 @media screen and (min-width: 300px) {
-    .container{
-        width: 400px;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .container{
-        width: 800px;
-    }
-}
-
-@media creen and (min-width: 1000px) {
-    .body{
-	width: 100%;
+    body{
+        width: 100%;
+        background-size: 100%;
     }
     .container{
         width: 50%;
+    }
+        
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        width: 100%;
+        background-size: 100%;
+    }
+    .container{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        width: 100%;
+        background-size: 100%;
+    }
+    .container{
+       width: 50%;
+
     }
 }
