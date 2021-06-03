@@ -67,3 +67,21 @@ button:active{
 .key-clear{
 	background-color: grey;
 }
+
+@media (min-width: 300px) {
+    .container{
+        width: 400px;
+    }
+}
+
+@media (min-width: 700px) {
+    .container{
+        width: 800px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container{
+        width: 1100px;
+    }
+}
