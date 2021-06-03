@@ -114,8 +114,7 @@ button:active{
 
 @media only screen and (device-width: 1080px){
      body{
-        width: 50%;
-        background-size: 100%;
+        width: 100%;
     }
    .container{
        width: 30%;
