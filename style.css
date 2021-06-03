@@ -81,6 +81,9 @@ button:active{
 }
 
 @media creen and (min-width: 1000px) {
+    .body{
+	width: 1100px;
+    }
     .container{
         width: 1100px;
     }
