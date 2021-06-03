@@ -7,6 +7,7 @@ body {
     background-image: url("images/background.jpg");		/*usar una imagen de fondo, esta imagen esta en una carpeta dentro de la carpeta del archivo fuente*/
     display: flex;		/*para darle flexibilidad al body. Es la capacidad de adaptarse a distintas pantallas*/
     height: 100vh;		/*indica la altura del body*/
+    width: fit-content;
     justify-content: center;		/*hace que el contenido se ubique en el centro*/
 } 
 
