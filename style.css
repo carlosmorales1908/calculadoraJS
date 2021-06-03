@@ -120,4 +120,7 @@ button:active{
    .container{
        width: 80%;
     }
+    .calculadora{
+       width: 100%;
+    }
 }
