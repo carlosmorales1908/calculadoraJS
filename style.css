@@ -109,6 +109,15 @@ button:active{
     }
     .container{
        width: 50%;
+    }
+}
 
+@media only screen and (device-width: 1080px){
+     body{
+        width: 100%;
+        /*background-size: 100%;*/
+    }
+   .container{
+       width: 50%;
     }
 }
