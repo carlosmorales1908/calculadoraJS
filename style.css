@@ -100,3 +100,15 @@ button:active{
 
     }
 }
+
+/*para pantalla en horizontal*/
+@media screen and (orientation: landscape) {
+     body{
+        width: 100%;
+        /*background-size: 100%;*/
+    }
+    .container{
+       width: 50%;
+
+    }
+}
